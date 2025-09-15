@@ -1,0 +1,43 @@
+body {
+	margin: 200px auto;
+	color: white;
+	background-color: #001122;
+
+}
+header {
+	background-color: #112233;
+	text-align: center;
+	width: 500px;
+	margin: 0 auto;
+	border-radius: 20px;
+	animation: bounce 2s infinite;
+}
+footer {
+	width: 500px;
+	margin: 0 auto;
+	color: gray;
+	opacity: 0;
+	transition: transform 1s ease-out, opacity 1s ease-out;
+}
+footer.show {
+	transform: translateY(100%);
+	opacity: 1;
+}
+
+h3 {
+	word-spacing: 14px;
+	letter-spacing: 4px;
+	color: blue;
+}
+
+@keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {
+		transform: translateY(0);
+	}
+	40% {
+		transform: translateY(-30px);
+	}
+	60% {
+		transform: translateY(-15PX);
+	}
+}

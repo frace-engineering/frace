@@ -1,0 +1,11 @@
+
+body {
+	color: white;
+	background-color: #113355;
+	font-family: 'Montserrat', sans-serif;
+}
+.list {
+	display: flex;
+	justify-content: space-around;
+}
+
