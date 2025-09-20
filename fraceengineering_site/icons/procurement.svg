@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-labelledby="prTitle">
+  <title id="prTitle">Procurement solutions</title>
+  <rect x="4" y="4" width="56" height="56" rx="8" fill="none"/>
+  <g fill="none" stroke="#004aad" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M18 22 H50 L44 38 H24 Z" />
+    <circle cx="28" cy="46" r="3"/>
+    <circle cx="44" cy="46" r="3"/>
+    <path d="M10 22 H14" stroke-opacity="0.6"/>
+  </g>
+</svg>

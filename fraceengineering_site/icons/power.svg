@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" 
+     width="64" height="64" 
+     viewBox="0 0 24 24" 
+     fill="none" 
+     stroke="#004aad" 
+     stroke-width="2" 
+     stroke-linecap="round" 
+     stroke-linejoin="round" 
+     aria-hidden="true">
+  <title>Custom Icon</title>
+  <path d="M12 2L11 12h2l-1-10z"/>
+  <path d="M12 22c5.523 0 10-4.477 10-10h-2a8 8 0 11-16 0H2c0 5.523 4.477 10 10 10z"/>
+</svg>
+

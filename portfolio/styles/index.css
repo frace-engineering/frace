@@ -1,11 +1,14 @@
-
 body {
 	color: white;
 	background-color: #113355;
-	font-family: 'Montserrat', sans-serif;
-}
-.list {
-	display: flex;
-	justify-content: space-around;
 }
 
+.list {
+	display: flex;
+	list-style-type: none;
+	justify-content: space-around;
+}
+#mainHeader-div {
+	height: 50px;
+	background-color: green;
+}
