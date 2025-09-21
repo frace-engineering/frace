@@ -10,69 +10,68 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
-    background: #004aad;
-    color: #fff;
+    background: #ced;
 }
 header nav a {
     margin: 0 1rem;
     text-decoration: none;
-    color: #fff;
+    color: #333;
     font-weight: 500;
 }
 .logo {
 	display: flex;
 	align-items: center;
-	gap: 0;
+	gap: 0.5em;
 }
 .logo-img {
-	padding-top: 1.5rem;
-	display: inline;
-	height: 80%;
+	height: 1.6em;
 	width: auto;
 }
 .logo-text {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	margin: 0;
 }
 .frace {
-	letter-spacing: 1rem;
-	font-size: 1.5rem;
+	letter-spacing: 0.1em;
+	font-size: 1.2em;
 	font-weight: bold;
 }
 .engineering {
-	letter-spacing: 1rem;
-	margin: 0;
-	padding: 0;
+	letter-spacing: 0.1em;
+	font-size: 0.6em;
 }
 .hero {
-    background: url('images/gift1.jpg') no-repeat center center/cover;
+    background: linear-gradient(to right, rgba(0, 74, 173, 1), rgba(0, 74, 173, 0.8)), url("images/frace.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
     padding: 6rem 2rem;
     text-align: left;
     color: #fff;
 }
-.hero h2, p {
-	width: 30%;
-	text-align: left;
-}
 button {
-	padding: 0.2rem;
+	padding: 0.5em;
 	border: none;
-	border-radius: 10px;
+	border-radius: 0.4em;
 }
 .get-started-btn {
-	background-color: #004bbd;
+	background-color: #004aad;
+	color: #fff;
+}
+.hero .get-started-btn {
+	background-color: #337acc;
 	color: #fff;
 }
 .contact-us-btn {
-	background-color: #00433d;
-	color: #fff;
+	background-color: #fff;
+	color: #000;
 }
 #hero-btn {
 	display: flex;
 	justify-content: flex-start;
-	gap: 10rem;
+	gap: 2em;
 }
 .services {
 	display: grid;
