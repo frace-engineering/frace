@@ -73,14 +73,18 @@ button {
 	justify-content: flex-start;
 	gap: 2em;
 }
-.services {
+.services, .why-choose-us, .footer-nav {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 	gap: 2rem;
-	text-align: center;
+	text-align: left;
 }
 .services img {
-	width: 20%;
+	width: 10%;
+	margin-bottom: 0.5rem;
+}
+.why-choose-us img {
+	width: 10%;
 	margin-bottom: 0.5rem;
 }
 section {
@@ -91,4 +95,45 @@ footer {
     color: #fff;
     text-align: center;
     padding: 1rem;
+}
+.social-icons a {
+	display: inline-block;
+	margin: 0px;
+	text-decoration: none;
+	color: #fff;
+	font-size: 18px;
+	position: relative;
+	padding-left: 5px;
+}
+.social-icons a::before {
+	font-family: "Font Awesom 6 Free";
+	font-weight: 900;
+	position: absolute;
+	left: 0;
+	top: 0;
+	font-size: 0.13em;
+}
+.footer-nav ul {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+.footer-services ul li, .footer-contact ul li {
+	display: inline-block;
+	padding: 0;
+	margin: 5px;
+}
+.footer-nav h4 a {
+	background-color: #fff;
+	color: rgba(0, 74, 173, 1);
+	padding: 5px;
+	text-decoration: none;
+	border-radius: 5px;
+}
+.deep-footer {
+	display: flex;
+	justify-content: space-around;
+	background: #ced;
+	width: 100%;
 }
