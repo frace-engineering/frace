@@ -1,6 +1,6 @@
 
 body {
-    margin: 0;
+    margin: 0 0.5em;
     font-family: 'Open Sans', sans-serif;
     color: #333;
     background: #fff;
@@ -10,7 +10,6 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
-    background: #ced;
 }
 header nav a {
     margin: 0 1rem;
@@ -42,7 +41,7 @@ header nav a {
 	font-size: 0.6em;
 }
 .hero {
-    background: linear-gradient(to right, rgba(0, 74, 173, 1), rgba(0, 74, 173, 0.8)), url("images/frace.jpg");
+    background: linear-gradient(to right, rgba(12, 26, 123, 1), rgba(12, 26, 123, 0.8)), url("images/frace.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -52,6 +51,7 @@ header nav a {
     color: #fff;
 }
 button {
+	background-color: #369500;
 	padding: 0.5em;
 	border: none;
 	border-radius: 0.4em;
@@ -61,11 +61,11 @@ hr {
 	margin: 0;
 	padding: 0.41em;
 	border: none;
-	background: #004aad;
+	background: #151a7b;
 
 }
 .get-started-btn {
-	background-color: #004aad;
+	background-color: #e69500;
 	color: #fff;
 }
 .hero .get-started-btn {
@@ -73,7 +73,7 @@ hr {
 	color: #fff;
 }
 .contact-us-btn {
-	background-color: #fff;
+	background-color: #e69500;
 	color: #000;
 }
 #hero-btn {
@@ -85,6 +85,8 @@ hr {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 	gap: 2rem;
+	padding: 0.3em;
+	margin: 1em;
 	text-align: left;
 }
 .services img {
@@ -95,32 +97,40 @@ hr {
 	width: 10%;
 	margin-bottom: 0.5rem;
 }
-section {
-    padding: 3rem 2rem;
+section, article {
+	padding: 2em;
+	margin: 1.2em auto;
+    	border-radius: 5px;
+	background-color: #f5f5f5;
 }
 footer {
-    background: #004aad;
+    background: rgba(12, 26, 123, 0.9);
     color: #fff;
     text-align: center;
     padding: 1rem;
+    margin: 0.3em;
+    border-radius: 5px;
 }
 .social-icons a {
 	display: inline-block;
 	margin: 0px;
 	text-decoration: none;
 	color: #fff;
-	font-size: 18px;
+	font-size: 0.61em;
 	position: relative;
 	padding-left: 5px;
 }
+/*
 .social-icons a::before {
+	content: "";
 	font-family: "Font Awesom 6 Free";
-	font-weight: 900;
+	font-weight: 400;
 	position: absolute;
 	left: 0;
 	top: 0;
 	font-size: 0.13em;
 }
+*/
 .footer-nav ul {
 	padding: 0;
 	margin: 0;
@@ -133,8 +143,8 @@ footer {
 	margin: 5px;
 }
 .footer-nav h4 a {
-	background-color: #fff;
-	color: rgba(0, 74, 173, 1);
+	background-color: #e69500;
+	color: rgba(45, 45, 45, 1);
 	padding: 5px;
 	text-decoration: none;
 	border-radius: 5px;
@@ -145,6 +155,61 @@ footer {
 	background: #ced;
 	width: 100%;
 }
+.footer-logo {
+	display: flex;
+	flex-direction: row;
+}
 #copyright {
-	padding-left: 30em;
+	margin-left: auto;
+}
+
+.menu-toggle {
+	display: none;
+	background-color: #fff;
+	cursor: pointer;
+	font-size: 1.5rem;
+	border: none;
+	color: #151a7b;
+}
+
+@media screen and (max-width: 768px) {
+	.menu-toggle {
+		display: block;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.nav-items {
+		display: none;
+	}
+}
+@media screen and (max-width: 768px) {
+	.nav-items {
+		flex-direction: column;
+		gap: 1rem;
+		position: absolute;
+		top: 60px;
+		right: 1em;
+		background-color: #fff;
+		color: #151a7b;
+		width: 120px;
+		padding: 1rem;
+		box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+	}
+}
+/*
+.footer-contact ul li a {
+	text-decoration: none;
+}
+*/
+
+.footer-contact ul li a i {
+	color: #151a7b;
+	background-color: #f5f5f5;
+	padding: 0.5em;
+	border-radius: 20px;
+}
+form button {
+	background-color: #e69500;
+	color: #151a7b;
 }
